@@ -13,12 +13,12 @@ public class Main {
 //        Car myCar = new Car();
 //        myCar.honk();
         System.out.println("Enter two Number: ");
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
         System.out.println("Select Operator: ");
-        String operator = scanner.next();
+        String operator = sc.next();
 
         Kalkulator kalkulator = new Kalkulator();
         kalkulator.hitung(operator, a,  b);
